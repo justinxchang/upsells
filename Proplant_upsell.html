@@ -1,0 +1,486 @@
+<script type="text/javascript" src="https://www.mcssl.com/content/assets/40/409148/mobile/viewport.js"></script>
+<style>@import url("https://www.mcssl.com/content/assets/40/409148/mobile/bootstrap.min.css");</style>
+<style>
+    @import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+    *{text-decoration: none; max-width: 100%;}
+    s{text-decoration: line-through;}
+    html,body{margin: 0; padding: 0; font-family: 'Roboto', sans-serif; color: #382f2d; font-size: 17px;}
+    img{border: none; vertical-align: middle;}
+    /*hr{border: none; border-top: 1px solid #f04923; width: 330px; margin-left: 0; text-align: left;}
+    hr.center{margin: auto; width: 450px;}*/
+	hr {
+    border: none;
+    border-top: 1px solid #474648;
+    margin-top: -10px;
+}
+	#divider {
+    border: none;
+    height: 2px;
+    background-color: #00a79d;
+    margin: 0;
+}
+    h1{text-transform: uppercase; color: #ff671f; font-size: 30px; margin-bottom: 0;}
+    .grey{color: #494949;}
+    .green{color: #008000;}
+    p{line-height: 20px;}
+    .bold{font-weight: 700;}
+    .center{text-align: center;}
+    .underline{text-decoration: underline;}
+    .italic{font-style: italic;}
+    .phone{float: right; color: #ed5338; margin-top: 10px;}
+    .left{float: left;}
+    .right{float: right;}
+    .clear{clear: both;}
+    /*.w535{width: 535px;}*/
+    .mt30{margin-top: 30px;}
+    .mt50{margin-top: 50px;}
+    .ml100{margin-top: 90px;}
+    .col{height: 40px; text-align: center; color: #bcbcbc; background-color: #e0e0df; float: left; padding: 10px 0;}
+    .colTwo{background-color: #b8d536; color: #fff;}
+    .container{width: 1030px; margin: 0 auto;}
+    .productContainer{margin: 50px 0;}
+    .ctaContainer{margin-top: 20px; height: 57px; text-align: center;}
+    .cta{display: inline-block; padding: 15px 30px; color: #fff; border: 1px solid #e7530d; font-weight: 700; font-size: 21px; background: #fe8a53;
+        background: -moz-linear-gradient(top, #fe8a53 0%, #ff671f 100%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fe8a53), color-stop(100%,#ff671f));
+        background: -webkit-linear-gradient(top, #fe8a53 0%,#ff671f 100%);
+        background: -o-linear-gradient(top, #fe8a53 0%,#ff671f 100%);
+        background: -ms-linear-gradient(top, #fe8a53 0%,#ff671f 100%);
+        background: linear-gradient(to bottom, #fe8a53 0%,#ff671f 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fe8a53', endColorstr='#ff671f',GradientType=0 );}
+    #header{padding-bottom: 5px; padding-top: 5px; margin-bottom: 30px;-webkit-box-shadow: 0px 5px 10px -4px rgba(0,0,0,0.37);
+    -moz-box-shadow: 0px 5px 10px -4px rgba(0,0,0,0.37);
+    box-shadow: 0px 5px 10px -4px rgba(0,0,0,0.37);}
+    #footer{color: #fff; font-size: 14px; text-align: center; padding: 40px 0 75px; background: url("https://www.mcssl.com/content/assets/43/431038/img/redDiamondBG.jpg"); background-size: cover;}
+    #footer a{color: #fff;}
+    .row{margin-left: 0px; margin-right: 0px;}
+	.phoneContainer {
+    height: 30px;
+    /* border: 1px solid green; */
+    float: right;
+    /*top: 20px;*/
+    right: 25px;
+    position: relative;
+    font-family: helvetica-light, Arial, Helvetica, sans-serif;
+}
+	.fade:hover {
+    opacity: 0.5;
+}
+	.fade {
+    opacity: 1;
+	}
+	.floatl {float: left;}
+	.clear {clear: both;}
+	.stoptext {margin: 49px 20px 0;}
+	.margint20 {margin-top: 20px;}
+	.margint40 {margin-top: 40px;}
+	.margintop30 {margin-top: 30px;} 
+	.marginl170 {margin-left: 170px;}
+	.centertxt {text-align: center;}
+	.marginb50 {margin-bottom: 50px;}
+	h1.wait {
+    color: #00a79d;
+    font-size: 34px;
+    text-align: center;
+}
+	h3.wait {
+    font-size: 14px;
+    color: #000;
+    text-align: center;
+}
+	h2.offerHeader {
+    color: orange;
+    font-size: 32px;
+}
+	.offerProduct {
+    text-align: center;
+    position: relative;
+}
+
+.offerSavings {
+    margin-left: -50px;
+    position: relative;
+    top: -70px;
+}
+	#fouricons {text-align: center;}
+	#iconButton {
+    width: 170px;
+    height: 35px;
+    border-radius: 4px;
+    background-color: #D1D3D4;
+    margin: 0px auto;
+}
+	#titleIcon {
+    font-family: quicksand;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+	#iconCopy {
+    font-family: helvetica-light;
+    font-size: 12px;
+    color: #6d6e71;
+    text-align: center;
+    padding: 5px;
+	line-height: 16px;
+}
+	.potentWrap {
+    /*width: 186px;*/
+    height: 247px;
+    /* border: 1px dashed black; */
+    float: left;
+}
+	.qualityWrap {
+    /*width: 186px;*/
+    height: 247px;
+    /* border: 1px dashed black; */
+    float: left;
+}
+	.earthWrap {
+    /*width: 186px;*/
+    height: 247px;
+    /* border: 1px dashed black; */
+    float: left;
+}
+	.californiaWrap {
+    /*width: 186px;*/
+    height: 247px;
+    /* border: 1px dashed black; */
+    float: left;
+}
+	.potentWrap img {
+    margin: 0 auto -2px;
+}
+	.qualityWrap img {
+        margin: 6px auto 0;
+}
+	.earthWrap img {
+    margin: 16px auto 12px;
+}
+	.californiaWrap img {
+        margin: 25px auto 16px;
+}
+	#footerBorder {
+    height: 9px;
+    background-color: #66cac4;
+}
+	#footerCopy {
+    font-family: helvetica-light, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #bcbec0;
+    text-align: center;
+    line-height: 20px;
+    /*width: 760px;*/
+    margin: 14px auto 0 auto;
+}
+	#footerNav {
+    border-top: 1px solid #00a79d;
+}
+	.footerList {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+	#footerButtons {
+    font-family: 'Quicksand',sans-serif;
+    color: #00a79d;
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 10px;
+}
+	.floatr {float: right;}
+	.gunfloatr {float: right; margin-left: 30px;}
+	.paddingt35 {padding-top: 35px;}
+	.shadowbox {box-shadow: 0 0 25px #ccc;}
+	.productbox {width: 860px; margin: auto;}
+	.productboxinner {padding: 50px; margin: 50px 0;}
+	.itembox {
+    display: inline-block;
+    float: left;
+}
+	.itembox2 {
+    display: inline-block;
+    float: right;
+}
+	.orange {
+    color: #ec7a23;
+}
+	.blue {
+    color: #3a5eac;
+}
+	.fw900 {font-weight: 900;}
+	.doc-pic {
+    width: 250px;
+    padding: 10px 0 10px 10px;
+}
+	.offer .savings {
+    background-color: #b8d536;
+}
+.offer p {
+    color: #474648;
+    font-size: 20px;
+    font-weight: 200;
+	line-height: 24px;
+}
+	#your-price {
+    color: #333333;
+    font-size: 26px;
+}
+	.mbg {
+    background: url(https://www.mcssl.com/content/assets/40/409148/upsell/90_day.png) no-repeat right;
+    background-size: 250px;
+    height: 100px;
+    padding-right: 275px;
+    padding-top: 20px;
+}
+	.margintb40 {margin: 40px 0;}
+	.paddingt30 {padding-top: 30px;}
+	
+	
+	@media screen and (max-width: 770px) and (min-width: 240px), screen and (max-device-width: 770px) and (min-device-width: 240px)
+{
+     #header .col-xs-12 {text-align: center; padding-bottom: 35px;}
+	.phoneContainer {float: none;right: 0;}
+	.floatl {float: none;}
+	.floatr {float: none;margin: auto}
+	.margint20 {text-align: center;}
+	.margint40 {text-align: center;}
+	.stoptext {margin: 5px 20px 0;}
+	.marginl170 {margin-left: 0;}
+	.paddingt35 {padding-top: 0;}
+	.itembox {
+    display: inline-block;
+    float: none;
+}
+	.gunfloatr {float: none; margin-left: auto; margin-right: auto; margin-bottom: 20px;}
+	.mbg {
+    background: url(https://www.mcssl.com/content/assets/40/409148/upsell/90_day.png) no-repeat right;
+    background-size: 250px;
+    height: 100px;
+    padding-right: 275px;
+    padding-top: 20px;
+}
+	.paddingt30 {padding-top: 0;}
+}
+	.marginb20 {margin-bottom: 20px;}
+	.marginb10 {margin-bottom: 10px;}
+	.bottleimg {width: 190px; margin-left: 70px;}
+	.mobile {display: none;}
+	
+	@media screen and (max-width: 770px) and (min-width: 240px), screen and (max-device-width: 770px) and (min-device-width: 240px)
+{
+     .bottleimg {
+    width: 190px;
+    margin-left: 70px;
+    display: block;
+    margin: auto;
+}
+	.mobile {display: block;}
+	.reg {display: none;}
+	.centerimg {display: block; margin: auto;}
+}
+	
+	
+</style>
+<!--[if lt IE 9]>
+		<script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="https://www.mcssl.com/content/assets/29/298701/upsellContent/responsive/js/respond.js"></script>
+<![endif]-->
+<div class="button_wrapper">
+    <div class="yesButton mobile" style="position: fixed; bottom: 0px; z-index: 1000; width: 100%; height: 60px; ">
+        
+        <div style="height: 60px; overflow: hidden; display: block; margin: 0 auto; background-image: url(https://www.mcssl.com/content/assets/40/409148/upsell/orange-rectangle.png); background-size: cover;">
+            <img style="display: block; margin: 8px auto; width: 250px;" src="https://www.mcssl.com/content/assets/40/409148/upsell/yes-text.png" alt="text">
+        </div>
+    </div>
+</div>
+<div id="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12">
+                <img src="https://www.mcssl.com/content/assets/40/409148/Logo.png" /> 
+                <div class="phoneContainer"> <img src="https://www.mcssl.com/content/assets/40/409148/phonenum.png"> </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+</div>
+		<!--<hr class="vis" id="divider" />-->
+		
+<div class="container">
+    <div class="row">
+        <div class="col col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            <span class="bold"><img src="https://www.mcssl.com/content/assets/40/409148/gray_check.png" /> STEP 1</span> 
+            ORDER APPROVED
+        </div>
+        <div class="col colTwo col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            <span class="bold">
+                <img src="https://www.mcssl.com/content/assets/40/409148/white_check.png" /> STEP 2
+            </span> PRODUCT OPTIONS
+        </div>
+        <div class="col col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            <span class="bold">STEP 3</span> 
+            FINAL CONFIRMATION
+        </div>
+    </div>
+    <div class="clear"></div>
+	
+	<div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 margint40">
+			<img src="https://www.mcssl.com/content/assets/40/409148/upsell/wait.png" class="floatr" />
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 margint40">
+			<p style="color:#27377a; font-size:25px; font-weight:300;" class="paddingt35">As a Thank You For Your Purchase...<br />
+	                <font style="color:#474648; font-size:17px; font-weight:300;">I'd like to show you a brand new way to maximize your results (AND save big!)</font><br /></p>
+		</div>
+	</div>
+	
+
+    <div class="row productbox">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 margint20 shadowbox productboxinner">
+			<p style="font-size:28px; line-height: 35px;">
+			<font style="font-weight:200">HOW WOULD YOU LIKE TO ADD </font>
+            6 JARS of GUNDRY MD PROPLANT COMPLETE SHAKE
+          <font style="font-weight:200">AND <font style="color:#27377a">SAVE 43% OFF RETAIL?</font></p>
+		<img src="https://www.mcssl.com/content/assets/40/409148/ProplantCompleteShake_Chocolate_1.png" style="margin-top: 30px" class="floatl bottleimg" />
+          <br />
+		<div class="itembox2 offer" style="width:390px; margin-top:25px">
+               
+                <p style="color:#27377a; font-size:26px; text-transform:uppercase; font-weight:200;">Add 6 jars to your order today AND<strong> SAVE $179.70</strong>
+                </p>
+                <hr>
+                <p style="line-height:28px;">
+                <font style="color:#474648; font-size:20px; font-weight:200;">REGULAR PRICE: $419.70</font><br />
+                <font style="color:#474648; font-size:20px; font-weight:200; background-color:#b8d536; padding-left:10px; padding-right:10px;">INSTANT SAVINGS : $179.70</font>
+                </p>
+                <br />
+                <hr>
+                <p style="color:#474648; font-size:26px">YOUR PRICE: <font style="color:#27377a">$240.00</font></p>
+			</div>
+        </div>
+    </div>
+	
+	
+	<div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+			<div class="yesButton marginb10 reg"><center> <img src="https://www.mcssl.com/content/assets/40/409148/upsell/orange_button.png" alt=""></center></div>
+	                
+	                <div class="reg"><center><img src="https://www.mcssl.com/content/assets/40/409148/upsell/gray_button.png" alt=""></center></div>
+            <div class="yesButton marginb10 mobile"><center><img src="https://www.mcssl.com/content/assets/40/409148/upsell/orange_button_m.png" alt=""></center></div>
+	                
+	                <div class="mobile"><center><img src="https://www.mcssl.com/content/assets/40/409148/upsell/gray_button_m.png" alt=""></center></div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            <img src="https://www.mcssl.com/content/assets/40/409148/upsell/90_day.png" class="centerimg" />
+        </div>
+</div>
+	
+	<div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 margint20">
+	
+					<p style="color:#27377a; font-size:21px; font-weight:200; text-transform:uppercase; margin-top: 30px;">Why Are We Doing This?<br /></p>
+	                <hr style="width:32px; margin: 5px 0 8px;">
+			
+	                <p style="font-weight:200;">We've gotten such great feedback from clients using ProPlant Complete Shake...how they have more energy...how they don't have to worry about their digestion...how it's made them happy to look in the mirror.</p>
+			<p style="font-weight:200;">Now we want you to take it to the next level!</p>
+<p style="font-weight:200;">When you add 6 jars of ProPlant Complete Shake to your order today, we save on the cost of shipping and fulfillment - and we want to pass those savings on to you.</p>
+<p style="color:#27377a; font-size:21px; font-weight:200; text-transform:uppercase; margin-top: 30px;">What's The Catch?<br /></p>
+ <hr style="width:32px; margin: 5px 0 8px;">
+                    <p style="font-weight:200;">This is an exclusive offer for first-time customers only. Most likely, you will <em>never</em> get another chance to save 43% off.</p>
+				
+  <p style="color:#27377a; font-size:21px; font-weight:200; text-transform:uppercase; margin-top: 30px;">No Risk Guarantee<br /></p>
+ <hr style="width:32px; margin: 5px 0 8px;">
+                    <p style="font-weight:200;">Your order is backed by our industry-leading 90-day money back guarantee.  If you're not completely satisfied - for any reason - just send it back and we'll give you an immediate refund.</p>              
+                    
+                    <p><b><i>You have nothing to lose! SO ACT NOW!</i></b></p>
+			<p><b>Click the button below</b> to add 6 jars of ProPlant Complete Shake - that's a full 6-month supply - for only $240.00 + free shipping & handling (and an INSTANT $179.70 in savings).</p>
+							
+                    
+		
+</div>
+	<div class="clearfix"></div>
+		<div class="row" style="margin: 30px 0;">
+        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+			<div class="yesButton marginb10 reg"><center> <img src="https://www.mcssl.com/content/assets/40/409148/upsell/orange_button.png" alt=""></center></div>
+	                
+	                <div class="reg"><center> <img src="https://www.mcssl.com/content/assets/40/409148/upsell/gray_button.png" alt=""></center></div>
+            <div class="yesButton marginb10 mobile"><center><img src="https://www.mcssl.com/content/assets/40/409148/upsell/orange_button_m.png" alt=""></center></div>
+	                
+	                <div class="mobile"><center><img src="https://www.mcssl.com/content/assets/40/409148/upsell/gray_button_m.png"</center></div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            <img src="https://www.mcssl.com/content/assets/40/409148/upsell/90_day.png" class="centerimg" />
+        </div>
+</div>
+	            
+		</div>
+	</div>
+
+<div class="container" style="padding-bottom: 76px;">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12" id="footerCopy">
+				<hr style="width: 100%;">
+				<p><a href="http://gundrymd.com/terms/">Terms &amp; Conditions</a> | <a href="http://gundrymd.com/privacy/">Privacy Policy</a></p>
+			<p>We work hard to formulate the most advanced products on the market. Our 90-Day Customer Satisfaction Guarantee is <br> designed to give you ample opportunity to experience optimal results from your product, completely risk-free.</p>
+			<p>&copy; Gundry MD <script language="JavaScript" type="text/javascript">
+
+    now = new Date
+
+    theYear=now.getYear()
+
+    if (theYear < 1900)
+
+    theYear=theYear+1900
+
+    document.write(theYear)
+
+</script>. All Rights Reserved <br> 9465 Wilshire Boulevard, Suite 300 Beverly Hills, California, 90212</p>
+			</div>
+	</div>
+	</div>  
+		
+    <!-- footer -->   
+
+<!-- Proplant Taboola Pixel -->
+<script type='text/javascript'>
+  window._tfa = window._tfa || [];
+  window._tfa.push({notify: 'event', name: 'page_view'});
+  !function (t, f, a, x) {
+         if (!document.getElementById(x)) {
+            t.async = 1;t.src = a;t.id=x;f.parentNode.insertBefore(t, f);
+         }
+  }(document.createElement('script'),
+  document.getElementsByTagName('script')[0],
+  '//cdn.taboola.com/libtrc/unip/1148911/tfa.js',
+  'tb_tfa_script');
+</script>
+<noscript>
+  <img src='//trc.taboola.com/1148911/log/3/unip?en=page_view'
+      width='0' height='0' style='display:none'/>
+</noscript>
+<script>
+	_tfa.push({notify: 'event', name: 'make_purchase'});
+</script>
+<noscript>
+	<img src='//trc.taboola.com/1148911/log/3/unip?en=make_purchase'
+ 		width='0' height='0' style='display:none'/>
+</noscript>
+<!-- End Proplant Taboola Pixel -->
+
+<!-- ProPlant Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MR5H6PJ');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M266MH');</script>
+<!-- End Google Tag Manager -->
+
